@@ -21,7 +21,7 @@ class Calculator{
             if(num2!=0)
                 cout<<"Result "<<(num1/num2)<<endl;
             else
-                cout<<"Error: Division by zero!"<<endl;
+                cout<<"Infinity!"<<endl;
         }
 };
 int main() {
@@ -31,21 +31,19 @@ int main() {
     cin >> calc.num1;
     cout << "Enter second number: ";
     cin >> calc.num2;
-
-    cout << "Choose operation ";
-    cout << "1)Addition ";
-    cout << "2)Subtraction ";
-    cout << "3)Multiplication ";
-    cout << "4)Division ";
-    cout << "Enter choice (1-4): ";
-    cin >> choice;
-
-    switch(choice) {
-        case 1: calc.add(); break;
-        case 2: calc.subtract(); break;
-        case 3: calc.multiply(); break;
-        case 4: calc.divide(); break;
-        default: cout << "Invalid choice!" << endl;
+ cout << "Choose operation ";
+cout << "1)Addition "; 
+cout << "2)Subtraction ";
+ cout << "3)Multiplication ";
+  cout << "4)Division "; 
+cout << "Enter choice (1-4): ";
+ cin >> choice;
+switch(choice){
+        case 1:calc.add();break;
+        case 2:calc.subtract();break;
+        case 3:calc.multiply();break;
+        case 4:calc.divide();break;
+        default:cout<<"Invalid choice"<<endl;
     }
 
     return 0;

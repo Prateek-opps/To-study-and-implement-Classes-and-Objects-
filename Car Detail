@@ -1,0 +1,50 @@
+EXPERIMENT - 11
+Prateek Sinha
+24070123077
+ENTC A3
+
+#include<iostream>
+using namespace std;
+class Car_Details{
+    public:
+    string name;
+    string brand;
+    int purchase_year;
+    string model_number;
+    float cost;
+};
+int main(){
+    cout<<"CAR 1"<<endl;
+    Car_Details s1;
+    cout<<"Name of Cars"<<endl;
+    cin>>s1.name;
+    cout<<"Brand"<<endl;
+    cin>>s1.brand;
+    cout<<"Year of Purchasing"<<endl;
+    cin>>s1.purchase_year;
+    cout<<"Model Number"<<endl;
+    cin>>s1.model_number;
+    cout<<"Price"<<endl;
+    cin>>s1.cost;
+    cout<<s1.name<<endl;
+    cout<<s1.brand<<endl;
+    cout<<s1.purchase_year<<endl;
+    cout<<s1.model_number<<endl;
+         return 0;}
+/*Output:-
+CAR 1
+Name of Cars
+Swift
+Brand
+Maruti
+Year of Purchasing
+2025
+Model Number
+SM2392HJS
+Price
+200000000
+Swift
+Maruti
+2025
+SM2392HJS
+*/

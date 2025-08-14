@@ -1,0 +1,30 @@
+EXPERIMENT - 11
+Prateek Sinha
+24070123077
+ENTC A3 
+
+#include<iostream>
+using namespace std;
+class Rectangle{
+    public:
+        float length;
+        float width;
+        void area(){
+            float area=length*width;
+            cout<<"Area of the rectangle "<<area<<endl;
+        }
+};
+int main(){
+    Rectangle rect;
+    cout<<"Enter length of the rectangle ";
+    cin>>rect.length;
+    cout<<"Enter width of the rectangle ";
+    cin>>rect.width;
+    rect.area();
+    return 0;
+}
+/*Output:-
+Enter length of the rectangle 2
+Enter width of the rectangle 4
+Area of the rectangle 8
+*/

@@ -1,0 +1,44 @@
+#include<iostream>
+using namespace std;
+class student{
+    public:
+    string name;
+    string branch;
+    string subject;
+    float result;
+};
+int main(){
+    cout<<"STUDENT 1"<<endl;
+    student s1;
+    s1.name="PRATEEK SINHA";
+    s1.branch="E&TC";
+    s1.subject="c++";
+    s1.result=8.6;
+    cout<<s1.name<<endl;
+    cout<<s1.branch<<endl;
+    cout<<s1.subject<<endl;
+    cout<<s1.result<<endl;
+    
+        cout<<"STUDENT 2"<<endl;
+        student s2;
+        s2.name="IRON MAN";
+        s2.branch="cs";
+        s2.subject="python";
+        s2.result=9.9;
+        cout<<s2.name<<endl;  
+        cout<<s2.branch<<endl;
+        cout<<s2.subject<<endl;
+        cout<<s2.result<<endl;
+         return 0;};
+/*Output:-
+STUDENT 1
+PRATEEK SINHA
+E&TC
+c++
+8.6
+STUDENT 2
+IRON MAN
+cs
+python
+9.9
+*/

@@ -3,3 +3,28 @@ Prateek Sinha
 24070123077
 ENTC A3 
 
+#include <iostream>
+using namespace std;
+class Rectangle{
+public:
+    int length=8;
+    int breadth=5;
+    void insideArea();
+    void area(){
+        cout<<"Area inside function "<<length*breadth;
+    }
+};
+void Rectangle::insideArea() {
+    cout<<"Area outside function "<<length*breadth;
+}
+int main(){
+    Rectangle R1;
+    R1.area();
+    cout<<endl;
+    R1.insideArea();
+    return 0;
+}
+/*Output:-
+Area inside function 40
+Area outside function 40
+*/

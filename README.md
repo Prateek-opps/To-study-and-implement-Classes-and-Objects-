@@ -1,3 +1,9 @@
+Prateek Sinha
+
+24070123077
+
+ENTC A3 
+
 # C++ Programs using Classes and Objects
 
 This repository contains several basic **Object-Oriented Programming (OOP)** examples in C++. Each program demonstrates the concept of **classes, objects, data members, and member functions**.  
